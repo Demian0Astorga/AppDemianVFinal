@@ -1,10 +1,12 @@
-package com.example.appdemianvfinal;
+package com.example.appdemianvfinal.pyme;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class CuentaNuevaEmprendedor extends AppCompatActivity {
+import com.example.appdemianvfinal.R;
+
+public class CuentaNuevaPyme extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

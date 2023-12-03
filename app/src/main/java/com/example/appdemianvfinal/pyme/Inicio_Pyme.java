@@ -1,8 +1,10 @@
-package com.example.appdemianvfinal;
+package com.example.appdemianvfinal.pyme;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.appdemianvfinal.R;
 
 public class Inicio_Pyme extends AppCompatActivity {
 

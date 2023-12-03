@@ -1,10 +1,12 @@
-package com.example.appdemianvfinal;
+package com.example.appdemianvfinal.pyme;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Ver_Productos extends AppCompatActivity {
+import com.example.appdemianvfinal.R;
+
+public class Ver_Productos_Pyme extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
