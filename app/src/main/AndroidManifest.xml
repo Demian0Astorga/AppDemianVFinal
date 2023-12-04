@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AppDemianVFinal"
         tools:targetApi="31">
         <activity
+            android:name=".cliente.Configuracion_Cliente"
+            android:exported="false" />
+        <activity
             android:name=".Vista_Productos_General"
             android:exported="false" />
         <activity
@@ -20,9 +23,6 @@
             android:exported="false"
             android:label="@string/title_activity_vista_productos"
             android:theme="@style/Theme.AppDemianVFinal" />
-        <activity
-            android:name=".cliente.Configuracion_Cliente"
-            android:exported="false" />
         <activity
             android:name=".cliente.Perfil_Cliente"
             android:exported="false" />
