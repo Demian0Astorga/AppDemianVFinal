@@ -32,6 +32,7 @@ public class Inicio_o_Creacion_Pyme extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Intent i = new Intent(Inicio_o_Creacion_Pyme.this, Inicio_Pyme.class);
+            startActivity(i);
         }
     });
 
@@ -39,6 +40,7 @@ public class Inicio_o_Creacion_Pyme extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Intent ne = new Intent(Inicio_o_Creacion_Pyme.this, CuentaNuevaPyme.class);
+            startActivity(ne);
         }
     });
 

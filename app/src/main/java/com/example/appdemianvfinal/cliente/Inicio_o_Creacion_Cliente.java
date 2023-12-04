@@ -32,6 +32,7 @@ public class Inicio_o_Creacion_Cliente extends AppCompatActivity {
            @Override
            public void onClick(View v) {
                Intent i = new Intent(Inicio_o_Creacion_Cliente.this, Inicio_Cliente.class);
+               startActivity(i);
            }
        });
 
@@ -39,6 +40,7 @@ public class Inicio_o_Creacion_Cliente extends AppCompatActivity {
            @Override
            public void onClick(View v) {
                Intent nc = new Intent(Inicio_o_Creacion_Cliente.this, CuentaNuevaCliente.class);
+               startActivity(nc);
            }
        });
 

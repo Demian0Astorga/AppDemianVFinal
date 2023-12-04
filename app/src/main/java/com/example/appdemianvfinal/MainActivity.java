@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent lc = new Intent(MainActivity.this, Inicio_o_Creacion_Cliente.class);
+                startActivity(lc);
             }
         });
 
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent le = new Intent(MainActivity.this, Inicio_o_Creacion_Pyme.class);
+                startActivity(le);
             }
         });
 

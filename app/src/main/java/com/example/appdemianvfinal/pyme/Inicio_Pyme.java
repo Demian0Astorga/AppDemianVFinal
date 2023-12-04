@@ -30,6 +30,7 @@ public class Inicio_Pyme extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent ivp = new Intent(Inicio_Pyme.this, Ver_Productos_Pyme.class);
+                startActivity(ivp);
             }
         });
 
@@ -37,6 +38,7 @@ public class Inicio_Pyme extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent is = new Intent(Inicio_Pyme.this, Redes_Sociales_Pyme.class);
+                startActivity(is);
             }
         });
 
@@ -44,6 +46,7 @@ public class Inicio_Pyme extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent iu = new Intent(Inicio_Pyme.this, Ubicacion_Pyme.class);
+                startActivity(iu);
             }
         });
 
@@ -51,6 +54,7 @@ public class Inicio_Pyme extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent ic = new Intent(Inicio_Pyme.this, Configuracion_Pyme.class);
+                startActivity(ic);
             }
         });
 

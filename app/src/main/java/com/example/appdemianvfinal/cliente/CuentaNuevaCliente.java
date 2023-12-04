@@ -32,6 +32,7 @@ public class CuentaNuevaCliente extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent ic = new Intent(CuentaNuevaCliente.this, Inicio_Cliente.class);
+                startActivity(ic);
             }
         });
     }

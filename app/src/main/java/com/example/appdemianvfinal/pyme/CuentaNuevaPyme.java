@@ -33,6 +33,7 @@ public class CuentaNuevaPyme extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent ie = new Intent(CuentaNuevaPyme.this, Inicio_Pyme.class);
+                startActivity(ie);
             }
         });
 
