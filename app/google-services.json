@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "48071474478",
+    "firebase_url": "https://emprendamos-1bdda-default-rtdb.firebaseio.com",
+    "project_id": "emprendamos-1bdda",
+    "storage_bucket": "emprendamos-1bdda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48071474478:android:0bddf1db6cfee9e5798ebf",
+        "android_client_info": {
+          "package_name": "com.example.appdemianvfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFCXM2E3gjyLtpoab06jb9wYkrgnlFFxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

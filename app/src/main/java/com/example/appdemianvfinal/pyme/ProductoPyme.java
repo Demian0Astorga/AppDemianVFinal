@@ -4,10 +4,21 @@ public class ProductoPyme {
 
     String NombreP;
     int Precio;
+    String DescripcionP;
 
-    public ProductoPyme(String nombreP, int precio) {
+    public void setDescripcionP(String descripcionP) {
+        DescripcionP = descripcionP;
+    }
+
+    public String getDescripcionP() {
+        return DescripcionP;
+    }
+
+
+    public ProductoPyme(String nombreP, int precio,String descripcionP) {
         NombreP = nombreP;
         Precio = precio;
+        DescripcionP = descripcionP;
     }
 
     public String getNombreP() {
