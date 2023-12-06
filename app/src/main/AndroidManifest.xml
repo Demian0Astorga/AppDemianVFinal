@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AppDemianVFinal"
         tools:targetApi="31">
         <activity
+            android:name=".pyme.DetallesProducto"
+            android:exported="false" />
+        <activity
+            android:name=".pyme.VisorImagen"
+            android:exported="false" />
+        <activity
             android:name=".cliente.Configuracion_Cliente"
             android:exported="false" />
         <activity

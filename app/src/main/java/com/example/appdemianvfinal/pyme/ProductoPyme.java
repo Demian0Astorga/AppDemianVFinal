@@ -5,6 +5,11 @@ public class ProductoPyme {
     String NombreP;
     int Precio;
 
+    public ProductoPyme(String nombreP, int precio) {
+        NombreP = nombreP;
+        Precio = precio;
+    }
+
     public String getNombreP() {
         return NombreP;
     }
